@@ -1,0 +1,122 @@
+{
+    "version": 0,
+    "model_name": "mast_water_guard.SLDASM",
+    "project_name": "waterFlow1",
+    "config_name": "v1",
+    "project_path": "C:\\Users\\julia.DESKTOP-TSHJUVK\\OneDrive\\Documents\\GrabCAD\\Dalhousie Microtransat\\nautono\\sail\\mast_water_guard\\1\\1.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 2140,
+        "cells_fluid": 2140,
+        "cells_solid": 660,
+        "cells_fluid_containing_solid": 720
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "19:03:55-0400",
+        "prepare_geometry_total_time": 1,
+        "cpu_time_solver_total": 13,
+        "iteration": 92,
+        "travel": 2.299999999999996,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "19:04:07-0400",
+        "cpu_time_per_last_iter": 1,
+        "cpu_time_left": 0,
+        "iterations_per_travel": 41
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Maximum Static Pressure 1",
+                "unit": "pressure and stress",
+                "value": 13562123.237689378,
+                "progress": 100.0,
+                "criteria": 1050553.0271585847,
+                "delta": 39346.25561789423,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Maximum Total Pressure 2",
+                "unit": "pressure and stress",
+                "value": 21037657.63675151,
+                "progress": 100.0,
+                "criteria": 846175.5952296378,
+                "delta": 48485.50406206399,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Mass Flow Rate 3",
+                "unit": "mass flow",
+                "value": 0.0,
+                "progress": 1000.0,
+                "criteria": 0.001,
+                "delta": 0.0,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Volume Flow Rate 4",
+                "unit": "volumetric flow",
+                "value": 0.0,
+                "progress": 1000.0,
+                "criteria": 1.0030666361601114e-07,
+                "delta": 0.0,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Maximum Velocity 5",
+                "unit": "speed and velocity",
+                "value": 189.577025711218,
+                "progress": 100.0,
+                "criteria": 1.1512262008891425,
+                "delta": 1.0814825473703422,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Maximum Velocity (X) 6",
+                "unit": "speed and velocity",
+                "value": 43.29208891955501,
+                "progress": 100.0,
+                "criteria": 3.7446231738364997,
+                "delta": 0.2611120780022631,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Water"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2022  x64 / 5593 / SOLVER ver. efd_2021_2.5587_14.01.2022+LamBL_4order_point_appr",
+        "cad_version": "SOLIDWORKS 2022 SP2.0",
+        "computer_name": "JUL-LAPTOP",
+        "user_name": "Julianne",
+        "os": "Windows 10 (or higher) (Version 10.0.22621)",
+        "cpu": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz",
+        "number_of_cores": 8,
+        "memory_avail": 6018,
+        "memory_total": 16130
+    }
+}

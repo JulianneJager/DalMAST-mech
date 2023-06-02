@@ -1,0 +1,58 @@
+Model: mast_water_guard.SLDASM
+Project name: waterFlow1
+Config name: v1
+Project path: C:\Users\julia.DESKTOP-TSHJUVK\OneDrive\Documents\GrabCAD\Dalhousie Microtransat\nautono\sail\mast_water_guard\1\1.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 2140
+    Fluid cells: 2140
+    Solid cells: 660
+    Fluid cells containing solids: 720
+
+
+Geometry preparation finished: 19:03:55
+Geometry preparation time: 00:00:01
+Solver CPU time: 00:00:13
+Iterations: 92
+Travels: 2.30000
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 19:04:07
+CPU time per last iteration: 00:00:01
+CPU time left: 00:00:00
+Iterations per 1 travel: 41
+
+Goals
+    Name                         | Unit (SI)           | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Maximum Static Pressure 1 | pressure and stress |     13562123.24 |     100.0 |      1050553.03 |        39346.26 | On
+    GG Maximum Total Pressure 2  | pressure and stress |     21037657.64 |     100.0 |       846175.60 |        48485.50 | On
+    GG Mass Flow Rate 3          | mass flow           |            0.00 |    1000.0 |            0.00 |            0.00 | On
+    GG Volume Flow Rate 4        | volumetric flow     |            0.00 |    1000.0 |            0.00 |            0.00 | On
+    GG Maximum Velocity 5        | speed and velocity  |          189.58 |     100.0 |            1.15 |            1.08 | On
+    GG Maximum Velocity (X) 6    | speed and velocity  |           43.29 |     100.0 |            3.74 |            0.26 | On
+
+Project details
+    Default fluids: Water
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2022  x64 / 5593 / SOLVER ver. efd_2021_2.5587_14.01.2022+LamBL_4order_point_appr
+    CAD version: SOLIDWORKS 2022 SP2.0
+    Computer name: JUL-LAPTOP
+    User name: Julianne
+    Operating system: Windows 10 (or higher) (Version 10.0.22621)
+    Processors: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+    Number of cores: 8
+    Memory: 6018 MB / 16130 MB
+
